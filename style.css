@@ -1,0 +1,54 @@
+/* Styles the whole page */
+body {
+    font-family: Arial, sans-serif;  /* Changes the font style */
+    background-color: #f2f2f2;      /* Sets a light gray background color */
+    margin: 20px;                    /* Adds spacing around the page edges */
+}
+
+/* Styles the main title */
+h1 {
+    color: blue;                     /* Turns the headline text blue */
+    text-align: center;              /* Centers the text on the screen */
+}
+
+/* Styles the paragraphs */
+p {
+    font-size: 18px;                 /* Makes the text slightly larger */
+    color: #333333;                  /* Sets the text to dark gray */
+}
+
+/* Styles the image */
+img {
+    display: block;                  /* Allows the image to behave like a block box */
+    margin: 20px auto;               /* Centers the image horizontally */
+    border: 2px solid black;         /* Adds a simple black frame */
+}
+
+/* Styles the form box */
+form {
+    width: 300px;                    /* Sets a fixed width for the form container */
+    margin: 20px auto;               /* Centers the form box on the screen */
+}
+
+/* Styles the text input fields */
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;                     /* Makes fields fill the width of the form */
+    padding: 8px;                    /* Adds breathing room inside the boxes */
+    margin-bottom: 10px;             /* Adds space below each input field */
+}
+
+/* Styles the submit button */
+button[type="submit"] {
+    background-color: blue;          /* Colors the button blue */
+    color: white;                    /* Colors the text white */
+    border: none;                    /* Removes default borders */
+    padding: 10px 20px;              /* Makes the button larger and clickable */
+    cursor: pointer;                 /* Changes mouse cursor to a pointing hand */
+}
+
+/* Changes button color when hovered */
+button[type="submit"]:hover {
+    background-color: darkblue;      /* Darkens the blue when mouse touches it */
+}
